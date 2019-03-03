@@ -7,7 +7,9 @@ spring:
     encoding: UTF-8
     servlet:
       content-type: text/html
-
+  # 开启服务追踪
+  zipkin:
+    base-url: http://localhost:9411
 server:
   port: 8765
 
